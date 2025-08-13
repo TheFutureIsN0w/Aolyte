@@ -1,4 +1,5 @@
-# Aolyte
+<img src="res/logo.png" width="150" />
+
 Welcome to project **Aolyte**! \
 This project is an educational Bluetooth Low Energy (BLE) challenge for security researchers.
 
@@ -87,6 +88,8 @@ To get started:
    `$ esptool --chip esp32 --port /dev/ttyUSB0 write-flash 0x0 ../Aolyte-0.9.0-rc.1.bin`
 6.  When you power on your ESP, a Bluetooth advertisement with the name 'Aolyte' should become visible.
 
+### How to Proceed
+
 Enumerating the device will provide a similar overview: \
 <img src="res/Enum.png" width="800" />
 
@@ -109,7 +112,7 @@ You’re encouraged to try solving the challenge yourself before referring to th
 ## **Liquid-crystal display** 
 
 The I²C LCD, which serves as Aolyte’s eyes and displays the final status after the correct shutdown code is sent, is an addition and is not required for the challenge.
-If you wish to use it, the pin layout is provided below but may also be modified within the code if this is more convenient:
+If you wish to use it, the pin layout is provided below but may also be modified within the code if that is more convenient:
 
 | Pin layout |  |
 |----------|----------|
