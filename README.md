@@ -113,8 +113,8 @@ Enumerating the device will provide a similar overview: \
 
 | Service| Details |
 |----------|----------|
-| 31d99129f10646beabd101326e0429f0 | Main challenge |
-| b1ad569d2a9b4e42a2f7f1fef9d9aacc | Override sequence |
+| 31d99129-f106-46be-abd1-01326e0429f0 | Main challenge |
+| b1ad569d-2a9b-4e42-a2f7-f1fef9d9aacc | Override sequence |
 
 In order to activate the override sequence, participants must first locate and assemble all scattered data fragments of the main challenge.
 There are six fragments, each in the following format: \
@@ -125,7 +125,7 @@ The override command should be formatted as: \
 
 Once assembled, the command must be written to handle `0x0039`. \
 Sending the correct command unlocks a new service: \
-`f4103aed1f6347da98ad26e76cc0fcc1`
+`709949a9-b018-41fe-93d6-0094a94d32c4`
 
 Although the second part requires some independent problem-solving, participants can refer to the walkthrough document at any stage of the Aolyte project for guidance.
 You’re encouraged to try solving the challenges yourself before referring to the walkthrough, as you’ll learn much more that way.
